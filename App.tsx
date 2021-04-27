@@ -5,7 +5,8 @@ import Input from './components/Input';
 
 export default function App() {
   const [res, setRes] = useState({
-    address: '',
+    'Date Question': Date.now(),
+    'New Address': '',
   });
   return (
     <TouchableWithoutFeedback onPress={() => Keyboard.dismiss()}>
