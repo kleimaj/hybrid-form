@@ -4,11 +4,13 @@ import { TouchableWithoutFeedback, Keyboard } from 'react-native';
 import Input from './components/Input';
 
 export default function App() {
-  const [res, setRes] = useState({});
+  const [res, setRes] = useState({
+    address: '',
+  });
   return (
     <TouchableWithoutFeedback onPress={() => Keyboard.dismiss()}>
       <View style={styles.container}>
-        <Text>Hello World!</Text>
+        <Text>Hybrid</Text>
       </View>
     </TouchableWithoutFeedback>
   );
