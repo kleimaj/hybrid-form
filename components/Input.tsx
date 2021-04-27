@@ -9,6 +9,8 @@ type KeyboardTypes =
   | 'email-address'
   | 'phone-pad';
 
+// https://stackoverflow.com/questions/56028635/passing-usestate-as-props-in-typescript
+
 type InputProps = {
   label: string;
   keyboardType?: KeyboardTypes;
